@@ -1,0 +1,10 @@
+{"id":1,"winnerId":4564,"loserId":6666}
+{"id":2,"winnerId":4564,"loserId":312}
+{"id":3,"winnerId":1111,"loserId":2222}
+{"id":4,"winnerId":1111,"loserId":2222}
+{"id":5,"winnerId":222,"loserId":2222}
+{"id":6,"winnerId":222,"loserId":4555}
+{"id":7,"winnerId":222,"loserId":4555}
+{"id":8,"winnerId":222,"loserId":4555}
+{"id":9,"winnerId":222,"loserId":4555}
+{"id":10,"winnerId":222,"loserId":4555}
