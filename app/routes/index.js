@@ -9,4 +9,12 @@ router.route('/api/game')
     .post((req, res) => {
         gameController.finishGame(req, res);
     })
+router.route('/api/game/knex')
+    .get((req, res) => {
+        gameController.gamesResultKnex(req, res);
+    })
+    .post((req, res) => {
+        gameController.finishGameKnex(req, res);
+    })
+
 module.exports = router;

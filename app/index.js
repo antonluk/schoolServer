@@ -1,8 +1,7 @@
 const express = require("express");
 const app = express();
-const mainRouter = require("./app/routes/index");
-const config = require("./app/config/index");
-
+const mainRouter = require("./routes");
+const config = require("./config");
 app.use(express.json())
 app.use(mainRouter);
 app.listen(config.port, config.host, () =>
